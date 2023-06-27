@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Calculator",
+            "request": "launch",
+            "mainClass": "Java.Lesson1.Calculator",
+            "projectName": "GB_f7f1bd8c"
+        },
+        {
+            "type": "java",
             "name": "Homework1",
             "request": "launch",
             "mainClass": "Java.Lesson1.Homework1",

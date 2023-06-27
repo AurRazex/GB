@@ -1,6 +1,6 @@
 package Java.Lesson1;
 import java.util.Scanner;
-public class Homework1 {
+public class Numbers {
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
             System.out.print("Введите число n: ");
@@ -30,4 +30,5 @@ public class Homework1 {
         }
         }
     }
+    
 }
