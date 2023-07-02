@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "student",
+            "request": "launch",
+            "mainClass": "Java.Lesson2.student",
+            "projectName": "GB_f7f1bd8c"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "Java.Lesson2.BubbleSort",
+            "projectName": "GB_f7f1bd8c"
+        },
+        {
+            "type": "java",
+            "name": "sql",
+            "request": "launch",
+            "mainClass": "Java.Lesson2.sql",
+            "projectName": "GB_f7f1bd8c"
+        },
+        {
+            "type": "java",
             "name": "Calculator",
             "request": "launch",
             "mainClass": "Java.Lesson1.Calculator",
