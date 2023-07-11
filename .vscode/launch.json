@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LList",
+            "request": "launch",
+            "mainClass": "Java.Lesson4.LList",
+            "projectName": "GB_f7f1bd8c"
+        },
+        {
+            "type": "java",
+            "name": "list",
+            "request": "launch",
+            "mainClass": "Java.Lesson3.list",
+            "projectName": "GB_f7f1bd8c"
+        },
+        {
+            "type": "java",
+            "name": "even",
+            "request": "launch",
+            "mainClass": "Java.Lesson3.even",
+            "projectName": "GB_f7f1bd8c"
+        },
+        {
+            "type": "java",
+            "name": "Task010",
+            "request": "launch",
+            "mainClass": "Java.Lesson3.Task010",
+            "projectName": "GB_f7f1bd8c"
+        },
+        {
+            "type": "java",
+            "name": "Numbers2",
+            "request": "launch",
+            "mainClass": "Java.Lesson3.Numbers2",
+            "projectName": "GB_f7f1bd8c"
+        },
+        {
+            "type": "java",
+            "name": "MinMaxExample",
+            "request": "launch",
+            "mainClass": "Java.Lesson3.MinMaxExample",
+            "projectName": "GB_f7f1bd8c"
+        },
+        {
+            "type": "java",
             "name": "student",
             "request": "launch",
             "mainClass": "Java.Lesson2.student",

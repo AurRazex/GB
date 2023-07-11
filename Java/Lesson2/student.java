@@ -5,6 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 import javax.tools.JavaFileObject;
+import javax.xml.bind.JAXBElement;
 
 public class student {
     private static final String JsonStr = null;
@@ -14,11 +15,11 @@ public class student {
         JsonArray array =new Gson().fromJson(JsonStr, JsonArray.class);
         StringBuilder sb = new StringBuilder();
 
-        for (JsonElement element : array) {
-            JavaFileObject obj =element.getAsJsonObject();
-            String surname = obj.get("Фамилия").getAsString();
-            String mark = obj.get("Оценка").getAsString();
-            String subject = obj.get("Предмет").getAsString();
+        for (JAXBElement element : array) {
+            final JavaFileObject obj =((Object) element).getAsJsonObject();
+            String surname = ((Object) obj).get("Фамилия").getAsString();
+            String mark = ((Object) obj).get("Оценка").getAsString();
+            String subject = ((Object) obj).get("Предмет").getAsString();
 
             sb.append("Студент ")
                 .append(surname)
@@ -58,6 +59,9 @@ public class student {
             e.printStackTrace();
             return null;
         }
+    }
+
+    private static void While(boolean b) {
     }
 
 }
