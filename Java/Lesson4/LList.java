@@ -16,7 +16,7 @@ public class LList {
     
     }
 
-    public static void task1(){
+    public static void Lin(){
 
         System.out.println();
         System.out.println("Дан следующий произвольный список: ");
@@ -32,7 +32,7 @@ public class LList {
 
     }
 
-    public static void task2(){
+    public static void que(){
 
         String text1 = "первое слово";
         String text2 = "второе слово";
@@ -73,10 +73,8 @@ public class LList {
 
     }
 
-    /**
-     * В калькулятор (урок 1 и 2) добавьте возможность отменить последнюю операцию.
-     */
-    public static void task3(){
+
+    public static void Calc(){
 
         Stack<Double> saveResult = new Stack<>();
 
@@ -192,10 +190,7 @@ public class LList {
         }
     }
 
-    /**
-     * метод для ввода числа для калькулятора
-     * @return число типа double
-     */
+
     public static double getDouble(){
         double result = 0;
         boolean flag = true;
@@ -210,10 +205,7 @@ public class LList {
         return result;
     }
 
-    /**
-     * Создает произвольный связанный список целых чисел. 
-     * @return список целых чисел.
-     */
+
     public static LinkedList<Integer> makeArrayList(){
 
         int size = (int) (Math.random() * 20);
@@ -224,10 +216,7 @@ public class LList {
         return randomList;
     }
 
-    /**
-     * метод для запроса продолжения или выхода
-     * @return true или false
-     */
+
     public static boolean askForCheck(){
 
         System.out.println();
@@ -255,9 +244,7 @@ public class LList {
         return true;
     }
 
-    /**
-     * метод, который запускает консольное приложение.
-     */
+
     public static void run(){
         boolean f = true;
         while(f){
@@ -272,17 +259,17 @@ public class LList {
 
             switch(number){
                 case "1":
-                    task1();
+                    Lin();
                     f = askForCheck();
                     break;
 
                 case "2":
-                    task2();
+                    que();
                     f = askForCheck();
                     break;
 
                 case "3":
-                    task3();
+                    Calc();
                     f = askForCheck();    
                     break;
                 
