@@ -5,142 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "java",
-            "name": "animal",
+            "name": "Python: текущий файл",
+            "type": "python",
             "request": "launch",
-            "mainClass": "Java.Lesson6.animal",
-            "projectName": "GB_f7f1bd8c"
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
         },
         {
-            "type": "java",
-            "name": "PB",
+            "name": "Python: текущий файл",
+            "type": "python",
             "request": "launch",
-            "mainClass": "Java.Lesson5.PB",
-            "projectName": "GB_f7f1bd8c"
-        },
-        {
-            "type": "java",
-            "name": "LList",
-            "request": "launch",
-            "mainClass": "Java.Lesson4.LList",
-            "projectName": "GB_f7f1bd8c"
-        },
-        {
-            "type": "java",
-            "name": "list",
-            "request": "launch",
-            "mainClass": "Java.Lesson3.list",
-            "projectName": "GB_f7f1bd8c"
-        },
-        {
-            "type": "java",
-            "name": "even",
-            "request": "launch",
-            "mainClass": "Java.Lesson3.even",
-            "projectName": "GB_f7f1bd8c"
-        },
-        {
-            "type": "java",
-            "name": "Task010",
-            "request": "launch",
-            "mainClass": "Java.Lesson3.Task010",
-            "projectName": "GB_f7f1bd8c"
-        },
-        {
-            "type": "java",
-            "name": "Numbers2",
-            "request": "launch",
-            "mainClass": "Java.Lesson3.Numbers2",
-            "projectName": "GB_f7f1bd8c"
-        },
-        {
-            "type": "java",
-            "name": "MinMaxExample",
-            "request": "launch",
-            "mainClass": "Java.Lesson3.MinMaxExample",
-            "projectName": "GB_f7f1bd8c"
-        },
-        {
-            "type": "java",
-            "name": "student",
-            "request": "launch",
-            "mainClass": "Java.Lesson2.student",
-            "projectName": "GB_f7f1bd8c"
-        },
-        {
-            "type": "java",
-            "name": "BubbleSort",
-            "request": "launch",
-            "mainClass": "Java.Lesson2.BubbleSort",
-            "projectName": "GB_f7f1bd8c"
-        },
-        {
-            "type": "java",
-            "name": "sql",
-            "request": "launch",
-            "mainClass": "Java.Lesson2.sql",
-            "projectName": "GB_f7f1bd8c"
-        },
-        {
-            "type": "java",
-            "name": "Calculator",
-            "request": "launch",
-            "mainClass": "Java.Lesson1.Calculator",
-            "projectName": "GB_f7f1bd8c"
-        },
-        {
-            "type": "java",
-            "name": "Homework1",
-            "request": "launch",
-            "mainClass": "Java.Lesson1.Homework1",
-            "projectName": "GB_f7f1bd8c"
-        },
-        {
-            "type": "java",
-            "name": "Program",
-            "request": "launch",
-            "mainClass": "Java.Lesson1.Program",
-            "projectName": "GB_f7f1bd8c"
-        },
-        {
-            "type": "java",
-            "name": "Main",
-            "request": "launch",
-            "mainClass": "Main",
-            "projectName": "GB_f7f1bd8c"
-        },
-        {
-            "name": "Java",
-            "type": "java",
-            "request": "launch",
-            "stopOnEntry": true,
-            "jdkPath": "${env:JAVA_HOME}/bin",
-            "cwd": "${fileDirname}",
-            "startupClass": "${fileBasenameNoExtension}",
-            "classpath": [
-                ".",
-                "${fileDirname}"
-            ]
-        },
-        {
-            "name": "Java Console App",
-            "type": "java",
-            "request": "launch",
-            "stopOnEntry": true,
-            "jdkPath": "${env:JAVA_HOME}/bin",
-            "cwd": "${fileDirname}",
-            "startupClass": "${fileBasenameNoExtension}",
-            "classpath": [
-                ".",
-                "${fileDirname}"
-            ],
-            "externalConsole": true
-        },
-        {
-            "type": "java",
-            "name": "Current File",
-            "request": "launch",
-            "mainClass": "${file}"
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
         }
     ]
 }
