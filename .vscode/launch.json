@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "animal",
+            "request": "launch",
+            "mainClass": "Java.Lesson6.animal",
+            "projectName": "GB_f7f1bd8c"
+        },
+        {
+            "type": "java",
+            "name": "PB",
+            "request": "launch",
+            "mainClass": "Java.Lesson5.PB",
+            "projectName": "GB_f7f1bd8c"
+        },
+        {
+            "type": "java",
             "name": "LList",
             "request": "launch",
             "mainClass": "Java.Lesson4.LList",
