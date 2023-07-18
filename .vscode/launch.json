@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "LotteryToys",
+            "request": "launch",
+            "mainClass": "intermediate.test2.app_lottery_toys.LotteryToys",
+            "projectName": "GB_f7f1bd8c"
+        },
+        {
             "name": "Python: текущий файл",
             "type": "python",
             "request": "launch",
